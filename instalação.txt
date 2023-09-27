@@ -1,0 +1,15 @@
+sudo apt update -y && sudo apt upgrade -y && sudo apt install -y docker-compose && sudo apt update -y && sudo apt install -y nginx && sudo apt update -y && sudo apt install -y certbot python3-certbot-nginx
+
+mkdir typebot.io
+cd typebot.io
+nano docker-compose.yml
+nano .env
+docker-compose up -d
+
+
+
+
+
+
+
+
